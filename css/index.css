@@ -49,11 +49,13 @@ table {
 
 * {
     box-sizing: border-box;
+    border: 29c solid black;
 }
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,6 +66,36 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+
+header .headers{
+    display:flex;
+    
+  
+}
+
+nav{
+
+
+
+}
+
+
+header nav a {
+    display:flex;
+    text-decoration:none;
+    padding: 10% 20% 10% 20%;
+
+}
+
+header nav{
+    display: flex;
+   
+ 
+}
+
+.logo img{
+   padding:0 -50%;
 }
 
 .container {
