@@ -67,9 +67,13 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+/*styling*/
 header .headers{
     display:flex;
+}
+header .headers-1{
+    display:flex;
+    width:80%
 }
 
 header nav a {
@@ -197,4 +201,20 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+.container-about-page{
+
+}
+
+
+.box-img{
+display: flex;
+flex-wrap: wrap;
+}
+
+.about-body{
+    max-width: 60%;
+   margin-left: 20%;
 }
