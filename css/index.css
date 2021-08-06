@@ -203,18 +203,42 @@ footer nav a {
     text-decoration: none;
 }
 
-
+/*about page*/
 .container-about-page{
 
 }
 
 
 .box-img{
-display: flex;
-flex-wrap: wrap;
+
+}
+.box-imgs{
+  width:45%;
+  padding:10%;
+  
+}
+.about-body{
+    max-width: 65%;
+  
 }
 
-.about-body{
-    max-width: 60%;
-   margin-left: 20%;
+hr {
+    border:dotted;
+}
+.boxed{
+ 
+}
+
+
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    padding: .3%;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.header-0{
+    margin-right: 30%;
 }
