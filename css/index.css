@@ -73,7 +73,8 @@ header .headers{
 }
 header .headers-1{
     display:flex;
-    width:80%
+    width:80%;
+    justify-content: space-around
 }
 
 header nav a {
@@ -204,14 +205,7 @@ footer nav a {
 }
 
 /*about page*/
-.container-about-page{
 
-}
-
-
-.box-img{
-
-}
 .box-imgs{
   width:45%;
   padding:10%;
@@ -225,9 +219,7 @@ footer nav a {
 hr {
     border:dotted;
 }
-.boxed{
- 
-}
+
 
 
 .flex{
@@ -239,6 +231,34 @@ hr {
 
 }
 
-.header-0{
-    margin-right: 30%;
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+header .headers-1 nav{
+    display: flex;
+    justify-content: center;
+    
+}
+header .headers-1 nav a{ 
+    display: flex;
+    justify-content: center;
+    color:black;
+}
+header .headers-1 nav.log0{
+    padding :0 5%;
+    
+}
+
+.flex-items{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+button{
+    border-radius: 20%;
 }
