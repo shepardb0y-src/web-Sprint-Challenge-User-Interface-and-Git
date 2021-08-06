@@ -70,28 +70,18 @@ p {
 
 header .headers{
     display:flex;
-    
-  
 }
-
-nav{
-
-
-
-}
-
 
 header nav a {
     display:flex;
     text-decoration:none;
-    padding: 10% 20% 10% 20%;
+    padding: 10% 15% 10% 15%;
 
 }
 
 header nav{
     display: flex;
    
- 
 }
 
 .logo img{
